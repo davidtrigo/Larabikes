@@ -52,8 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://larabikes2.local'),
-    /*http://larabikes-original.robertsallent.com/*/
+    'url' => env('APP_URL', 'http://larabikes.local'),
+    
 
     'asset_url' => env('ASSET_URL', null),
 

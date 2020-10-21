@@ -13,7 +13,7 @@
   <!-- Image and text -->
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="{{url('img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
+        <img src="{{url('public/img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
        <b> LARABIKES MOTOSPORT</b>
       </a>
     </nav>     
@@ -42,7 +42,7 @@
          --> 
        <!--   <p>Se ha implementado un <b>CRUD</b> con motos<p> -->
         <div class = "row mt-2 mb-3 col-10 offset-1 ">
-        	<img class="d-dblock w-100" src="{{url('img/welcome.jpg')}}" alt="Larabikes" >
+        	<img class="d-dblock w-100" src="{{url('public/img/welcome.jpg')}}" alt="Larabikes" >
         </div>
      
          <footer class="page-footer font-small p-4 bg-dark">

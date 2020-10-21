@@ -13,7 +13,7 @@
   <!-- Image and text -->
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="{{url('img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
+        <img src="{{url('public/img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
        <b> LARABIKES MOTOSPORT</b>
       </a>
     </nav>     
@@ -67,13 +67,13 @@
          
          <td class ="text-center">
         	<a href="{{route('bikes.show',$bike->id)}}">
-        	<img height="20" width="20" src="{{asset('/img/buttons/show.svg')}}" alt="Ver detalles" title="Ver detalles">
+        	<img height="20" width="20" src="{{asset('public/img/buttons/show.svg')}}" alt="Ver detalles" title="Ver detalles">
         	</a>
         	<a href="{{route('bikes.edit',$bike->id)}}">
-        	<img height="20" width="20" src="{{asset('/img/buttons/edit.svg')}}" alt="Modificar" title="Modificar">
+        	<img height="20" width="20" src="{{asset('public/img/buttons/edit.svg')}}" alt="Modificar" title="Modificar">
         	</a>
         	<a href="{{route('bikes.delete',$bike->id)}}">
-        	<img height="20" width="20" src="{{asset('/img/buttons/delete.svg')}}" alt="Borrar" title="Borrar">
+        	<img height="20" width="20" src="{{asset('public/img/buttons/delete.svg')}}" alt="Borrar" title="Borrar">
         	</a>
          </td>
     </tr>

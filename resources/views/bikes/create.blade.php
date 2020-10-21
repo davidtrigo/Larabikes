@@ -11,9 +11,9 @@
             <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
    </head>      
   <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="{{url('img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
+        <img src="{{url('public/img/welcome.jpg')}}" width="50" height="30" class="d-inline-block align-top" alt="LARABIKES">
        <b> LARABIKES MOTOSPORT</b>
       </a>
     </nav>     
